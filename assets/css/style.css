@@ -2,3 +2,33 @@
     --primary-color: rgb(255, 32, 110);
     --main-font: "Open Sans", sans-serif;
 }
+
+body{
+    font-family: var(--main-font);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+/* Header */
+
+header .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: .875rem;
+}
+
+header .navbar-light .navbar-nav .nav-link.active{
+    color: var(--primary-color);
+}
+
+header .navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header .navbar-light .navbar-brand:hover{
+    color: #fff;
+}
