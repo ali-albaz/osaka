@@ -44,3 +44,26 @@ header .navbar-light .navbar-nav .nav-link.active{
 .about{
     background-image: url(./../images/about/bg-about.jpg);
 }
+
+/* Portfolio */
+
+.portfolio{
+    background-image: url(./../images/portofolio/bg-portofolio.jpg);
+}
+
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link.active{
+    color: var(--primary-color);
+}
+
+.portfolio .nav-link{
+    color: #000;
+}
+
+.portfolio .nav-tabs .nav-link{
+    border: none;
+}
+
+.portfolio .nav-tabs{
+    border-bottom: none;
+}
