@@ -67,3 +67,20 @@ header .navbar-light .navbar-nav .nav-link.active{
 .portfolio .nav-tabs{
     border-bottom: none;
 }
+
+/* Testimonials */
+
+.testimonial img {
+    width: 85px;
+}
+
+.testimonial .testimonial-img{
+    bottom: 200px;
+    left: 600px;
+}
+
+.testimonials .carousel-indicators button{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
